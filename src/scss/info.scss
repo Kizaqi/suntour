@@ -1,0 +1,85 @@
+.info {
+  .title {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #000000;
+  }
+  .content {
+    .h4 {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      margin: 0;
+    }
+    h3 {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 130%;
+      margin: 0;
+    }
+    p {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      margin: 24px 0;
+    }
+    .text {
+      margin-left: 48px;
+      position: relative;
+      font-family: 'Arial';
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      height: 100%;
+
+      &::after {
+        content: '';
+        width: 8px;
+        height: 115%;
+        background: #008baa;
+        position: absolute;
+        left: -20px;
+        top: -5px;
+      }
+      p {
+        font-style: italic;
+      }
+    }
+  }
+  .data {
+    ul {
+      li {
+        list-style: unset !important;
+      }
+    }
+  }
+  .item {
+    h2 {
+      font-family: 'Trebuchet MS';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 116px;
+      letter-spacing: -0.05em;
+      color: #777777;
+    }
+    h4 {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 31px;
+      color: #000000;
+    }
+  }
+}

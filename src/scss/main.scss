@@ -1,0 +1,145 @@
+.main {
+  padding: 24px 0 23px 0;
+  .triangle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 43%;
+  }
+  &__content {
+    position: absolute;
+    bottom: 33px;
+    left: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background: rgba(255, 242, 0, 0.7);
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .subtitle {
+      &__code {
+        background: black;
+        color: white;
+        font-size: 24px;
+        padding: 2px 5px;
+        line-height: 27px;
+        margin-top: 7px;
+      }
+    }
+  }
+
+  .name {
+    padding: 23px 0;
+    h1 {
+      position: relative;
+      font-family: 'Trebuchet MS';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 130%;
+      color: black;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid black;
+        opacity: 0.25;
+      }
+    }
+    .stars {
+      margin: 0 18.5px;
+      font-size: 26px;
+      i {
+        margin: 0 1.5px;
+        color: #dddddd;
+
+        &.active {
+          color: #ff9900;
+        }
+      }
+    }
+    .price {
+      font-family: 'Trebuchet MS';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 130%;
+    }
+  }
+
+  .revies {
+    .title {
+      font-size: 14px;
+    }
+
+    span {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+    }
+    .main-score {
+      padding: 12px 8px;
+      background: #008baa;
+      color: white;
+      margin: 0 24px 0 32px;
+      font-weight: 700;
+      font-family: 'Trebuchet MS';
+    }
+    .item {
+      margin-right: 16px;
+      p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .score {
+        h2 {
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21px;
+          margin: 0;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .day {
+    position: relative;
+    margin-top: -50px;
+    right: 30px;
+
+    h2 {
+      font-family: 'Trebuchet MS';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 102px;
+      letter-spacing: -0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    p {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 31px;
+    }
+  }
+}

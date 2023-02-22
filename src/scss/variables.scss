@@ -1,0 +1,20 @@
+$fontbig: 700;
+$color-first: #1c1c1c;
+$color-secondary: #6f2dff;
+$font-awesome: 'Font Awesome 6 Free';
+
+.table {
+  thead {
+    background: #f7f7f7;
+    border: 0;
+    th {
+      padding: 15px 0 15px 20px;
+      border: 0;
+    }
+  }
+  tbody {
+    td {
+      padding: 15px 0 15px 20px;
+    }
+  }
+}

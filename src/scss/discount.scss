@@ -1,0 +1,63 @@
+.discount {
+  margin-bottom: 64px;
+  .col-12 {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+  }
+  .top {
+    padding: 20px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #008baa;
+  }
+  .subtitle {
+    h6 {
+      color: #008baa;
+      text-transform: uppercase;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+    }
+    h3 {
+      margin: 0;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 130%;
+      color: #000000;
+    }
+    .text {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+    }
+  }
+  a {
+    padding: 13px 42.5px;
+    background: #008baa;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .button {
+    width: 100%;
+    color: #777777;
+    padding: 15px 0;
+    border-top: 2px solid #e0e0e0;
+    i {
+      font-weight: 700;
+    }
+  }
+}

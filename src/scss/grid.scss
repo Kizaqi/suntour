@@ -1,0 +1,50 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1010px !important;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .header {
+    &__logo {
+      p {
+        opacity: 0;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+  .main {
+    .day {
+      display: none !important;
+    }
+    &__content {
+      bottom: -25px;
+    }
+  }
+  .discount {
+    .subtitle {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .header {
+    .burger-menu_nav {
+      max-width: unset;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+}
